@@ -1,0 +1,59 @@
+service: devspace-app
+
+provider:
+  name: aws
+  runtime: python3.6
+  environment:
+    DYNAMODB_TABLE: { Ref: VoteTable }
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "*"
+
+functions:
+  hello:
+    handler: backend/handler.hello
+    events:
+      - http:
+          path: vote
+          method: get
+          cors: true
+  vote:
+    handler: handler.vote
+    events:
+      - http:
+          path: vote
+          method: post
+          cors: true
+  getScore:
+    handler: handler.get_rating
+    events:
+      - http:
+          path: rating
+          method: post
+          cors: true
+
+resources:
+  Resources:
+    VoteTable:
+      Type: "AWS::DynamoDB::Table"
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: userId
+            AttributeType: S
+          - AttributeName: talkName
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userId
+            KeyType: HASH
+          - AttributeName: talkName
+            KeyType: RANGE
+        ProvisionedThroughput:
+          ReadCapacityUnits: 5
+          WriteCapacityUnits: 5
