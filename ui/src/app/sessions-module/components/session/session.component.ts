@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { switchMap } from 'rxjs/operators';
+import { Session } from '../../../../shared/models';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { SessionService } from '../../services';
 
 @Component({
   selector: 'session',
@@ -6,7 +11,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./session.component.scss']
 })
 export class SessionComponent implements OnInit {
-  constructor() {}
+  session$: Observable<Session>;
 
-  ngOnInit() {}
+  constructor(
+    private route: ActivatedRoute,
+    private sessionServices: SessionService
+  ) {}
+
+  ngOnInit() {
+    this.session$ = this.route.paramMap.pipe(
+      switchMap((params: ParamMap) =>
+        this.sessionServices.getSession(params.get('id'))
+      )
+    );
+  }
 }

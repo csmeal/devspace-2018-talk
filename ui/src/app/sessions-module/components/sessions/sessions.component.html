@@ -11,8 +11,9 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let session of sessions">
+    <ion-item *ngFor="let session of sessions" [routerDirection]="'root'" [routerLink]="[session.Id]">
       <!-- <ion-icon [name]="item.icon" slot="start"></ion-icon> -->
+
       {{session.Title}}
       <div class="item-note" slot="end">
         {{session.Speaker.DisplayName}}

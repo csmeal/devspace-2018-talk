@@ -15,13 +15,11 @@ import { SessionsComponent, SessionComponent } from './components';
     RouterModule.forChild([
       {
         path: '',
-        component: SessionsComponent,
-        children: [
-          {
-            path: ':id',
-            component: SessionComponent
-          }
-        ]
+        component: SessionsComponent
+      },
+      {
+        path: ':id',
+        component: SessionComponent
       }
     ])
   ],
