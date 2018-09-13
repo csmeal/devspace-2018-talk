@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
-import { SessionService } from './session.service';
-import { SessionsPage } from './sessions.page';
+import { SessionService } from './services/sessions.service';
+import { SessionsComponent, SessionComponent } from './components';
 
 @NgModule({
   imports: [
@@ -15,11 +15,17 @@ import { SessionsPage } from './sessions.page';
     RouterModule.forChild([
       {
         path: '',
-        component: SessionsPage
+        component: SessionsComponent,
+        children: [
+          {
+            path: ':id',
+            component: SessionComponent
+          }
+        ]
       }
     ])
   ],
-  declarations: [SessionsPage],
+  declarations: [SessionsComponent, SessionComponent],
   providers: [SessionService]
 })
 export class SessionsPageModule {}

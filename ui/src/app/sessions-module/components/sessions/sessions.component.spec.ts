@@ -1,23 +1,25 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 
-import { SessionsPage, SessionService, MockSessionService } from '.';
+import { SessionsComponent } from './sessions.component';
+
+import { SessionService, MockSessionService } from '../../services';
 
 describe('SessionsPage', () => {
-  let component: SessionsPage;
-  let fixture: ComponentFixture<SessionsPage>;
+  let component: SessionsComponent;
+  let fixture: ComponentFixture<SessionsComponent>;
   let sessionsPage: HTMLElement;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [SessionsPage],
+      declarations: [SessionsComponent],
       schemas: [CUSTOM_ELEMENTS_SCHEMA],
       providers: [{ provide: SessionService, useClass: MockSessionService }]
     }).compileComponents();
   }));
 
   beforeEach(async () => {
-    fixture = await TestBed.createComponent(SessionsPage);
+    fixture = await TestBed.createComponent(SessionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

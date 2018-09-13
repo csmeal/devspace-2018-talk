@@ -13,7 +13,7 @@ const routes: Routes = [
   },
   {
     path: 'sessions',
-    loadChildren: './sessions/sessions.module#SessionsPageModule'
+    loadChildren: './sessions-module/sessions.module#SessionsPageModule'
   }
 ];
 

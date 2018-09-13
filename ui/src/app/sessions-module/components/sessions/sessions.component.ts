@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { Session } from './session';
-import { SessionService } from './session.service';
+import { Session } from '../../../../shared/models/session';
+import { SessionService } from '../../services/sessions.service';
 
 @Component({
-  selector: 'app-list',
-  templateUrl: 'sessions.page.html',
-  styleUrls: ['sessions.page.scss']
+  selector: 'session-list',
+  templateUrl: 'sessions.component.html',
+  styleUrls: ['sessions.component.scss']
 })
-export class SessionsPage implements OnInit {
+export class SessionsComponent implements OnInit {
   private selectedItem: any;
   private icons = [
     'flask',
@@ -22,7 +22,7 @@ export class SessionsPage implements OnInit {
     'build'
   ];
   public sessions: Array<Session> = [];
-  public items: Array<{ title: string; note: string; icon: string }> = [];
+
   constructor(private sessionService: SessionService) {}
 
   ngOnInit() {
