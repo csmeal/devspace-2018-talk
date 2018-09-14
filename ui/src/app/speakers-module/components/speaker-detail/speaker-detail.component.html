@@ -15,24 +15,27 @@
         {{speaker.DisplayName}}
       </ion-card-title>
       <ion-card-subtitle>
-        <button>
-          <ion-icon color="blue" name="logo-twitter"></ion-icon>@{{speaker.Twitter}}
-        </button>
-        <button></button>
-        {{speaker.Website}}
+
+
+        <ion-icon color="blue" name="logo-twitter"></ion-icon>@{{speaker.Twitter}}
+        <br>
+
+        <a href="{{speaker.Website}}"> {{speaker.Website}}</a>
+
+
       </ion-card-subtitle>
-    </ion-card-header> {{speaker.Bio}}
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        {{speaker.Bio}}
+      </ion-item>
+    </ion-card-content>
   </ion-card>
   <ion-card *ngFor="let session of speaker.Sessions">
 
-    <ion-card-header color="primary">
-      <ion-card-title color="dark">
-        {{ session.Title}}
-      </ion-card-title>
 
-    </ion-card-header>
-    <ion-card-content>
-      {{session.Text}}
+    <ion-card-content (click)="navigateToTalk(session.Id)">
+      {{ session.Title}}
     </ion-card-content>
   </ion-card>
 </ion-content>

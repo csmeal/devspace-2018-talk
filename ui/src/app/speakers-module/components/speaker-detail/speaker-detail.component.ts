@@ -4,6 +4,7 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Speaker, Session } from '../../../../shared/models';
 import { SpeakersService } from '../../services/speakers.service';
 import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'speaker-detail',
@@ -14,8 +15,13 @@ export class SpeakerDetailComponent implements OnInit {
   public speaker$: Observable<Speaker>;
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private speakerService: SpeakersService
   ) {}
+
+  navigateToTalk(id) {
+    this.router.navigateByUrl('/sessions/' + id.toString());
+  }
 
   ngOnInit() {
     this.speaker$ = this.route.paramMap.pipe(

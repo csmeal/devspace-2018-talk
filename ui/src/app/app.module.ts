@@ -11,6 +11,22 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SessionsComponent } from './sessions-module/components';
 
+import { AuthService } from 'angularx-social-login';
+import { AuthServiceConfig, GoogleLoginProvider } from 'angularx-social-login';
+
+const config = new AuthServiceConfig([
+  {
+    id: GoogleLoginProvider.PROVIDER_ID,
+    provider: new GoogleLoginProvider(
+      '355105365541-0rc1biv5lslii95eqovckmkhvkgbok9b.apps.googleusercontent.com'
+    )
+  }
+]);
+
+export function provideConfig() {
+  return config;
+}
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -23,7 +39,13 @@ import { SessionsComponent } from './sessions-module/components';
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+
+    {
+      provide: AuthServiceConfig,
+      useFactory: provideConfig
+    },
+    AuthService
   ],
   bootstrap: [AppComponent]
 })

@@ -4,6 +4,15 @@
       <ion-header>
         <ion-toolbar>
           <ion-title>Menu</ion-title>
+          <ion-content padding>
+            <button ion-button (click)="signInWithGoogle()">Login?<span class="fa fa-google"></span></button>
+          </ion-content>
+          <ion-content padding *ngIf="user">
+            <ion-thumbnail> <img width="25px" height="25px" src={{user.photoUrl}}>
+            </ion-thumbnail>Welcome back, {{user.firstName}}!
+            <button (click)="logOut()">Log Out?</button>
+
+          </ion-content>
         </ion-toolbar>
       </ion-header>
       <ion-content>

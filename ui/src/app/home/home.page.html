@@ -9,11 +9,21 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <ion-content>
-    <button ion-button (click)="loginWithGoogle()">
-      Connect with google
-    </button>
-  </ion-content>
+<ion-content padding *ngIf="!user">
+  <button ion-button (click)="signInWithGoogle()">Login?<span class="fa fa-google"></span></button>
+</ion-content>
+<ion-content padding *ngIf="user">
+  <ion-thumbnail> <img src={{user.photoUrl}}>
+  </ion-thumbnail>Welcome back, {{user.firstName}}!
+  <button (click)="logOut()">Log Out?</button>
+
+  <ion-card *ngFor="let message of messages">
+    <ion-card-title>
+      {{message.title}}
+    </ion-card-title>
+    <ion-card-content>
+      {{message.description}}
+    </ion-card-content>
+
+  </ion-card>
 </ion-content>
