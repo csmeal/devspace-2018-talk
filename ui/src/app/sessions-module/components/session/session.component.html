@@ -1,9 +1,20 @@
 <ion-content *ngIf="session$ | async as session">
   <ion-card>
-    <ion-card-content>
-      <ion-card-header>
+
+    <ion-card-header>
+      <ion-card-title>
         {{ session.Title}}
-      </ion-card-header>
+      </ion-card-title>
+
+      <ion-card-subtitle>{{session.Speaker.DisplayName}}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      {{session.Abstract}}
     </ion-card-content>
+    <ion-footer>
+      <button ion-button round color="dark" *ngFor="let tag of session.Tags">
+        {{ tag.Text }}
+      </button>
+    </ion-footer>
   </ion-card>
 </ion-content>
