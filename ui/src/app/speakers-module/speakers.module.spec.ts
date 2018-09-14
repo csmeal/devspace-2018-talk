@@ -1,10 +1,10 @@
-import { SpeakersModule } from './speakers.module';
+import { SpeakersPageModule } from './speakers.module';
 
 describe('SpeakersModule', () => {
-  let speakersModule: SpeakersModule;
+  let speakersModule: SpeakersPageModule;
 
   beforeEach(() => {
-    speakersModule = new SpeakersModule();
+    speakersModule = new SpeakersPageModule();
   });
 
   it('should create an instance', () => {

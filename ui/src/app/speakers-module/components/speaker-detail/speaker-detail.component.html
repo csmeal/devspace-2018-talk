@@ -1,3 +1,38 @@
-<p>
-  speaker-detail works!
-</p>
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Speakers
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content *ngIf="speaker$ | async as speaker">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        {{speaker.DisplayName}}
+      </ion-card-title>
+      <ion-card-subtitle>
+        <button>
+          <ion-icon color="blue" name="logo-twitter"></ion-icon>@{{speaker.Twitter}}
+        </button>
+        <button></button>
+        {{speaker.Website}}
+      </ion-card-subtitle>
+    </ion-card-header> {{speaker.Bio}}
+  </ion-card>
+  <ion-card *ngFor="let session of speaker.Sessions">
+
+    <ion-card-header color="primary">
+      <ion-card-title color="dark">
+        {{ session.Title}}
+      </ion-card-title>
+
+    </ion-card-header>
+    <ion-card-content>
+      {{session.Text}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>

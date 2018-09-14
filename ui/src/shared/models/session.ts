@@ -8,11 +8,6 @@ export interface Tag {
   Text?: string;
 }
 
-export interface Speaker {
-  Id?: number;
-  DisplayName?: string;
-}
-
 export interface TimeSlot {
   StartTime?: string;
   EndTime?: string;
@@ -30,6 +25,6 @@ export interface Session {
   RoomId?: string | number;
   TimeSlotId?: string | number;
   Tags: Array<Tag>;
-  Speaker: Speaker;
+  Speaker: { Id: number; DisplayName: string };
   TimeSlot?: TimeSlot;
 }

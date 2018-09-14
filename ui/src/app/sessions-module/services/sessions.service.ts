@@ -16,7 +16,6 @@ export class SessionService {
   }
 
   getSession(id: number | string): Observable<any> {
-    console.log('session id: ', id);
     return this.http
       .get(this.apiRoute)
       .pipe(

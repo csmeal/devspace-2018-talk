@@ -1,0 +1,493 @@
+[
+  {
+    "Id": 155,
+    "DisplayName": "Al Zaudtke",
+    "Bio": "Al is an Architect at J. J. Keller and Associates, Inc. where he works in both mobile and web.  On a good day he will have check-ins on .Net, Java, and Objective-C.  Currently he is working on scaling their existing application to meet the expected growth of mobile device users.\n",
+    "Twitter": "@alzaudtke",
+    "Website": "https://zaudtke.com",
+    "Sessions": [
+      { "Id": 362, "Title": "IoT in Azure - A Journey to Production" }
+    ]
+  },
+  {
+    "Id": 93,
+    "DisplayName": "Allison Benneth",
+    "Bio": "Allison has been a SQL Server database developer and administrator since 1998, working with versions 6.5 and beyond.  She geeks out on internals of the database engine and enjoys troubleshooting, tuning and monitoring, but barely knows BI.  She has a passing knowledge of C# and PowerShell -- just enough to write dangerous little database monitoring and analysis tools.",
+    "Twitter": "@sqltran",
+    "Website": "https://www.sqltran.org",
+    "Sessions": [
+      { "Id": 335, "Title": "SQL Server Performance Tips" },
+      { "Id": 336, "Title": "SQL Server Game Show - Developer Edition" }
+    ]
+  },
+  {
+    "Id": 94,
+    "DisplayName": "Andrew Malek",
+    "Bio": "Andrew is a UI developer and designer at NCR, focusing on POS (point-of-sale) and clienteling solutions. He has two decades of development experience in languages such as JavaScript, Visual Basic, Python, and C, and will admit to having developed a content management solution with Delphi and Perl if backed into a corner.",
+    "Twitter": "malekontheweb",
+    "Website": "http://malektips.com/",
+    "Sessions": [
+      {
+        "Id": 401,
+        "Title": "Is This a Button? A Question Your Users Should Never Ask."
+      }
+    ]
+  },
+  {
+    "Id": 127,
+    "DisplayName": "Andy Cowell",
+    "Bio": null,
+    "Twitter": "VT102Green",
+    "Website": null,
+    "Sessions": [
+      {
+        "Id": 275,
+        "Title": "Serverless: Bootstrap Globally in Minutes for Pennies"
+      }
+    ]
+  },
+  {
+    "Id": 122,
+    "DisplayName": "BJ",
+    "Bio": "BJ Burns is a Full Stack .Net Developer, Certified SCRUM Developer, Certified SCRUM Master, Meetup Organizer, and 1/2 of the Complete Developer Podcast. BJ first became interested in computers in fourth grade using DOS prompt to play Oregon Trail in the computer lab at his elementary school. He began programming in high school when he took a class on QBasic. For him coding was a hobby, something he did for fun until a few years ago when he left medicine and decided to pursue a career as a developer.",
+    "Twitter": "@bowtiebeej",
+    "Website": "www.completedeveloperpodcast.com",
+    "Sessions": [{ "Id": 324, "Title": "Developer's Role In SCRUM" }]
+  },
+  {
+    "Id": 117,
+    "DisplayName": "Branden Schwartz",
+    "Bio": "Branden Schwartz is a developer whose experience with the Microsoft stack predates the .NET framework.  He lives just outside of Chattanooga, Tennessee, where he is active in the developer community as a member of the local chapter of <a href=\"http://pass.org\">PASS</a> and one of the organizers of both the <a href=\"https://www.meetup.com/Chattanooga-Area-NET-User-Group-CHADNUG/\">Chattanooga Area .NET User Group</a> and the <a href=\"http://www.sceniccitysummit.com\">Scenic City Summit</a> conference.  Away from the keyboard, he is a proud godfather and foster parent, gamer and movie enthusiast, husband and cat caretaker.  ",
+    "Twitter": "BrandenSchwartz",
+    "Website": "http://www.brandenschwartz.com",
+    "Sessions": [
+      {
+        "Id": 377,
+        "Title": "The Highs and Woes of Innovation on a Small & Highly Effective Team"
+      }
+    ]
+  },
+  {
+    "Id": 158,
+    "DisplayName": "Brian Korzynski",
+    "Bio": "Brian Korzynski is a senior programmer on the architecture team at one of Detroit's best companies, United Shore. He has had an extensive career in Microsoft technologies working for a variety of companies both large and small. Working in many industries such as logistics, manufacturing, compliance, and finance has given him a wide variety of knowledge and skills that he wants to share with the world.",
+    "Twitter": "bkorzynski",
+    "Website": null,
+    "Sessions": [
+      {
+        "Id": 369,
+        "Title": "Build a Machine Learning Supercomputer under $500"
+      }
+    ]
+  },
+  {
+    "Id": 148,
+    "DisplayName": "Brian Wentzloff",
+    "Bio": "Brian Wentzloff is a founding partner of web3devs, a blockchain development firm based in Memphis, TN. He is also the President of the Board of Directors of Blockchain901, a non-profit organization focused on educating working professionals and college students to be competitive in emerging technologies such as blockchain.",
+    "Twitter": "@brianwentzloff",
+    "Website": "https://youtube.com/BlockchainProgramming",
+    "Sessions": [
+      { "Id": 345, "Title": "Building a simple blockchain using Python" }
+    ]
+  },
+  {
+    "Id": 156,
+    "DisplayName": "Bryan Robbins",
+    "Bio": "Dr. Bryan Robbins is a Software Developer at Siemens PLM Software in Huntsville, AL. He slings more Javascript than Java code these days, building Web applications on the AWS cloud.",
+    "Twitter": null,
+    "Website": null,
+    "Sessions": [
+      {
+        "Id": 364,
+        "Title": "Practical CD: Naming and Taming Your Delivery Pipeline"
+      },
+      { "Id": 365, "Title": "How much Lambda can we Lambda in 30 minutes?" }
+    ]
+  },
+  {
+    "Id": 164,
+    "DisplayName": "Bryan Slatner",
+    "Bio": "Bryan Slatner has been working as a software developer for 27 years, with a passion for making the everyday lives of developers and users easier. His focus for the last 15 years has been writing line of business applications on the .NET stack. He also specializes in automating DevOps on the AWS platform.\n\nIf he offers to cook you dinner, you should accept the invitation.\n",
+    "Twitter": "bslatner",
+    "Website": "http://blog.slatner.com",
+    "Sessions": [
+      {
+        "Id": 409,
+        "Title": "Look Ma, No Servers: AWS Serverless Applications with the .NET Stack"
+      },
+      {
+        "Id": 410,
+        "Title": "From I-Don't-Know-Crap-About-Linux to Running ASP.NET Core in 60 minutes"
+      }
+    ]
+  },
+  {
+    "Id": 45,
+    "DisplayName": "Cameron Presley",
+    "Bio": "Cameron Presley is a software engineer, avid boardgamer, and Microsoft MVP living in Oak Ridge, Tennessee. He currently works for Pilot Flying J as an application architect focusing on improving developers' skills.\n\nWhen not slinging code for his day job, Cameron spends his time organizing content for the  @FunctionalKnox user group, co-organizing LambdaSquared and CodeStock conferences, and mentoring others through Code Connective.",
+    "Twitter": "pcameronpresley",
+    "Website": "http://blog.thesoftwarementor.com",
+    "Sessions": [
+      {
+        "Id": 311,
+        "Title": "How Functional Programming Made Me a Better Developer"
+      }
+    ]
+  },
+  {
+    "Id": 162,
+    "DisplayName": "Cassandra Faris",
+    "Bio": "Cassandra Faris is a Support Agent at Test Double, a software development consulting agency. She leads Test Double’s employee and community outreach initiatives. She is responsible for the growth, support, and success of the company’s agents. Cassandra is passionate about growing the tech community and its people. She is an international speaker who specializes in teaching professional skills at technology conferences. She is also the President of the Microsoft and open source conference, DogFoodCon, and a Per Scholas Advisory Board member. She has an MBA in Organizational Leadership. When she's not busy with the tech community, she is avid tabletop gamer, runner, and soccer fan who travels as much as possible.",
+    "Twitter": "cassandrafaris",
+    "Website": null,
+    "Sessions": [
+      { "Id": 405, "Title": "Health: The Most Important Tech Tool" },
+      { "Id": 406, "Title": "Becoming an Effective Interviewer" }
+    ]
+  },
+  {
+    "Id": 132,
+    "DisplayName": "Chad Green",
+    "Bio": "Chad Green is a manager, software developer, architect, community leader, and most importantly a father and husband. Chad works as the Data & Solution Architect for ProgressiveHealth where he manages the application development team which is responsible for crafting software solutions for the various company affiliates located across the country, which provides health and wellness solutions in the healthcare and industrial service settings. Over the years, Chad has managed groups from 5 to 63 people and worked on projects in a wide range of markets including healthcare, military, government, workforce management, financial services, chemical research, and electronic commerce.\n\nOne of the ways Chad has kept up with technology and development practices is by attending user groups and software development events throughout the country. Being a big believer in giving back and wanting to ensure that there are cool events for other software development professionals, Chad founded and chairs the annual Code PaLOUsa conference, organizes the Louisville .NET Meetup user group and the Monthly Tech Leader Coffee and Discussion, and has helped with other groups like the Louisville Tech Ladies and events like Cincy Day of Agile. Chad also speaks at user groups and conferences about .NET development, VSTS, Azure, and leadership.",
+    "Twitter": "chadgreen",
+    "Website": "www.chadgreen.com",
+    "Sessions": [{ "Id": 285, "Title": "How to be a Leader" }]
+  },
+  {
+    "Id": 160,
+    "DisplayName": "Chang Hsin Lee",
+    "Bio": "Coming from Taiwan, Chang currently works as a data scientist at Lowe's Home Improvement. He entered into the data science field as an analytics intern for a baseball team, the Tampa Bay Rays. Chang has a PhD in Mathematics from Vanderbilt University. Besides math and data, Chang is a soul food advocate and survives on barbecue and hot chicken.",
+    "Twitter": "ChangLeeTW",
+    "Website": "https://changhsinlee.com/",
+    "Sessions": [
+      {
+        "Id": 379,
+        "Title": "An only one step ahead guide for machine learning projects"
+      }
+    ]
+  },
+  {
+    "Id": 53,
+    "DisplayName": "Charlotte M. Ellett",
+    "Bio": "Business cat that works in games, software, and web dev. Involved in small business and technology since childhood. Started learning to at age 12, and started out in game development with MUDs in 1999. Other interests include psychology and futurism. Works on Pixel: ru² (pixel.game) and LEDL (ledl.io), but the creation that has brought the most widespread joy has been the train computer (train.computer).",
+    "Twitter": "Charlaxy",
+    "Website": "https://pixel.game",
+    "Sessions": [
+      { "Id": 398, "Title": "3D Printing for Beginners" },
+      { "Id": 399, "Title": "VR Games in Unity" }
+    ]
+  },
+  {
+    "Id": 151,
+    "DisplayName": "Chipper Atkins",
+    "Bio": "I am a Software Engineer at Dynetics Inc. I graduated with a BS in CS from the University of Alabama class of 2018. My technical interests include machine learning, web technologies, and project management. My personal interests include golf, watching sports, cooking, and Alabama football. Roll tide. ",
+    "Twitter": "@chipperatkins",
+    "Website": "html://chipperatkins.me",
+    "Sessions": [
+      {
+        "Id": 359,
+        "Title": "Keras -- Baseball Made Easy, Deep Learning made Easier"
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "DisplayName": "Chris Smeal",
+    "Bio": "Chris Smeal is a senior software engineer, cloud developer and scrum master for Synapse Wireless in Huntsville, AL.  Typically he codes backend server code in Typescript and cloud architecture for IIoT services.  He also has experience in devops management, front end coding (with Angular), .NET application, and python scripting.\nHe certified AWS Developer and has a passion for cloud technology, especially serverless technologies.",
+    "Twitter": null,
+    "Website": "https://csmeal.wordpress.com/",
+    "Sessions": [
+      {
+        "Id": 400,
+        "Title": "No Server no Cry:  Building easily scalable serverless web application in the cloud with AWS"
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "DisplayName": "Dan McGuire",
+    "Bio": "I work at Rentpath writing elixir for the interwebs.  I enjoy long walks on the beach and my favorite color is green.",
+    "Twitter": "@DGMcGuire",
+    "Website": null,
+    "Sessions": [
+      {
+        "Id": 319,
+        "Title": "Texas: Virtual DOM library for server-side V-DOM."
+      }
+    ]
+  },
+  {
+    "Id": 134,
+    "DisplayName": "Daniel Oliver",
+    "Bio": "Daniel Oliver works at Radio Systems Corporation tying together Enterprise systems. Daniel started software development by modding video games, then programming competitions and intelligent robotics in college. Hobby projects are the definition of \"because I can\" and the precursor for production usage.",
+    "Twitter": "a_software_dev",
+    "Website": "https://www.olivercoding.com/",
+    "Sessions": [
+      {
+        "Id": 302,
+        "Title": "An Introduction to Server Configuration and Provisioning with Ansible"
+      }
+    ]
+  },
+  {
+    "Id": 152,
+    "DisplayName": "Dennis Stepp",
+    "Bio": "Dennis Stepp is a software engineer at AGI in Knoxville, TN. He is also a game/web developer with Unibear Studio, Earl Park Fall Festival Foundation, and BluegrassJam.org. Interests include DevOps, JAMstack, and software architecture. He also collects retro PC/console games, and dabbles in gardening and wood working. He has a passion for bluegrass music, craft beer, and ice hockey.",
+    "Twitter": "destepp",
+    "Website": "www.dennis-stepp.com",
+    "Sessions": [
+      {
+        "Id": 353,
+        "Title": "Impress Your Boss by Sitting on Your Ass : Automating Builds and Deployments"
+      }
+    ]
+  },
+  {
+    "Id": 54,
+    "DisplayName": "Douglas Starnes",
+    "Bio": "Douglas Starnes is a polyglot ninja and tech community influencer in the Memphis area making stuff that works on more than just the web. He specializes in the fields of mobile, IoT, data science and machine learning. Douglas is a co-director of the Memphis Python User Group and a board member of the Memphis .NET User Group. He is a frequent conference speaker who has delivered more than 20 featured presentations at more than 10 conferences over the past 4 years in a variety of citiies across the southeast United States. In addition, Douglas is an active participant in local user groups. He has also served as an organizer for PyTennessee, PyOhio and TechCampMemphis. Outside of being a geek Douglas is a trained composer, aspiring triathlete and avid Lego collector.",
+    "Twitter": "poweredbyaltnet",
+    "Website": "http://douglasstarnes.com",
+    "Sessions": [
+      {
+        "Id": 292,
+        "Title": "Microsoft Azure Makes Machine Learning Affordable and Accessible"
+      },
+      { "Id": 298, "Title": "Dart: What’s in it for You" }
+    ]
+  },
+  {
+    "Id": 145,
+    "DisplayName": "Draunta Nicovich",
+    "Bio": "Draunta (Dee) has a master of science with an undergraduate degree in Home Economics (nutrition), health and physical education.  She is a certified personal trainer, massage therapist (land and water) spin instructor.  She has taught at several universities. She enjoys helping folks to decode their health and enjoy life to its' fullest. ",
+    "Twitter": null,
+    "Website": "rocksolidhealthfitness.com",
+    "Sessions": [
+      { "Id": 337, "Title": "Decoding Your Health in Polyglot Technology" }
+    ]
+  },
+  {
+    "Id": 159,
+    "DisplayName": "Erica Swift",
+    "Bio": "Erica Swift is a graduate of the University of Tennessee at Chattanooga where she studied Computer Engineering.  She is currently a Software Engineer at the TVA, where she has \nworked on systems ranging from configuration management to firmware for industrial IoT devices. Erica is equal parts hardware and software enthusiast and feels most at home in the lab surrounded by drill presses, oscilloscopes, and her MacBook. She does not actually program in Swift but it's only a matter of time before that's corrected. At home Erica can be found tinkering with Raspberry Pis, working on cars, watching documentaries, training for triathlons, volunteering in various capacities with the Society of Women Engineers and the Scenic City Summit, or teaching manners to her cat. ",
+    "Twitter": "@Erica_Swift",
+    "Website": "ericaswift.com",
+    "Sessions": [{ "Id": 378, "Title": "A Polyglot Approach to IoT R&D" }]
+  },
+  {
+    "Id": 36,
+    "DisplayName": "Gaines Kergosien",
+    "Bio": "Gaines Kergosien is an associate director at UBS, director of Music City Tech, Microsoft MVP, and serves as board member for the Nashville Technology Council and Nashville .NET User Group. He also presents at software development conferences throughout the United States. With over 15 years in solutions development, his work includes consulting for such companies as Bridgestone, Deloitte, Hospital Corporation of America (HCA), American General (AIG), Lexis Nexis, Gibson Guitars, and Cardinal Healthcare.",
+    "Twitter": "gainesk",
+    "Website": "kergosien.net",
+    "Sessions": [{ "Id": 416, "Title": "7 Habits of Highly Paid Developers" }]
+  },
+  {
+    "Id": 35,
+    "DisplayName": "Gregory A. Beamer",
+    "Bio": "Greg is a consummate geek who loves to live on the bleeding edge. For the past 8 years, he has been employed by UST Global, an onshore/offshore solutions company, where he serves in the capacity of Senior Architect for the consulting practices. This position has helped him focus on the big picture and experiment with hypotheses in team development, Agile development practices, Dev Ops and code organization. For the past 4 years, he has been one of the resident experts in microservices, recently expanding to micro front ends.\n\nGreg's biggest passion these days is building individuals and teams, focusing on practical motivational subjects at conferences and mentoring up and coming talent. His biggest strengths are his ability  to see the positives in challenges, quickly find novel approaches to perplexing problems, examine the bigger picture and \"think outside the box\". Greg brings these topics to his speaking engagements, often taking contrarian positions to silver bullet topics.\n\nAs a motto, Greg actively engages people with the concept \"you cannot solve a problem you cannot properly define\". If you want a proper solution, you should ask \"can you solve this problem?\" rather than the more common \"can you solve this problem the way I am already trying to solve it?\". \n\nWhen he is not working or on the road speaking, Greg spends time with his wife and 4 daughters in Nashville, Tennessee. His hobbies include trivia nights, seeking out new experiences, and playing tabletop games. When traveling, Greg is most often the one finding unique and interesting restaurants or perusing the best food and craft beer in the area.",
+    "Twitter": "@gbworld",
+    "Website": "http://gregorybeamer.wordpress.com",
+    "Sessions": [
+      {
+        "Id": 300,
+        "Title": "Silver bullets kill werewolves: A contrarian view of software success"
+      }
+    ]
+  },
+  {
+    "Id": 125,
+    "DisplayName": "Harold Schreckengost",
+    "Bio": "I work for CrossBrowserTesting as a DevOps Engineer; a lot of my daily focus is on making things not suck for our developers.  I also have a focus on mental health issues, like mental illness and burnout.",
+    "Twitter": "hmschreck",
+    "Website": null,
+    "Sessions": [
+      { "Id": 333, "Title": "You are (not) a fraud" },
+      {
+        "Id": 414,
+        "Title": "A Small Piece: Breaking Out Parts of Your Application for the Future"
+      }
+    ]
+  },
+  {
+    "Id": 83,
+    "DisplayName": "Jamie Phillips",
+    "Bio": "Jamie Phillips is a Solutions Architect employed in East Tennessee.  He has been a developer in the .NET space for 10+ years.  He is the founder of Knox .NET, a .NET Meetup located in Knoxville, TN.  He has an interest in functional programming along with dynamic languages like Python.  In his free time, he contributes to open source software and enjoys mountain biking. ",
+    "Twitter": "phillipsj73",
+    "Website": "http://www.phillipsj.net/",
+    "Sessions": [{ "Id": 383, "Title": "Kubernetes: My journey so far…" }]
+  },
+  {
+    "Id": 135,
+    "DisplayName": "Jeremy Clark",
+    "Bio": "Jeremy Clark makes developers better. By drawing on over 15 years of experience in application development, he helps developers take a step up in their skillset with a focus on making complex topics approachable regardless of skill level. He is a Microsoft MVP for .NET, and he has authored seven courses for Pluralsight, including \"C# Interfaces\", a course aimed at giving developers a clear understanding of abstraction. He loves speaking and has delivered over 250 technical presentations in the last 8 years in the United States and Europe. Jeremy lives in northern Washington with his lovely wife, 2 cats, a hound dog, and a banjo. ",
+    "Twitter": "jeremybytes",
+    "Website": "http://www.jeremybytes.com",
+    "Sessions": [
+      { "Id": 374, "Title": "Clean Code: Homicidal Maniacs Read Code, Too!" },
+      {
+        "Id": 375,
+        "Title": "Unit Testing Makes Me Faster: Convincing Your Boss, Your Co-Workers, and Yourself"
+      }
+    ]
+  },
+  {
+    "Id": 136,
+    "DisplayName": "Jes Katz",
+    "Bio": "Jessica is an agile trainer, mentor, and coach with Eventbrite. She works with individuals, teams, and organizations to help them dig deep into self-discovery and move forward in the Agile Mindset. Jessica sees a world where all work environments can be a safe space for employees to bring their full selves without judgment allowing purpose to drive decisions at all levels.",
+    "Twitter": "@ElephantTaming",
+    "Website": "www.liberatedelephant.com",
+    "Sessions": [
+      { "Id": 320, "Title": "Safety and Other Lies We Tell Ourselves" }
+    ]
+  },
+  {
+    "Id": 161,
+    "DisplayName": "Jesse W. Schirmer",
+    "Bio": null,
+    "Twitter": "@Wolfenhex",
+    "Website": "jessewschirmer.com",
+    "Sessions": [
+      { "Id": 386, "Title": "Sniffing USB Packets to Reverse Engineer" },
+      { "Id": 397, "Title": "The Trivial History of Computer Games" }
+    ]
+  },
+  {
+    "Id": 170,
+    "DisplayName": "Jim Holmes",
+    "Bio": "Jim is an Executive Consultant at Pillar Technology where he works with organizations trying to improve their software delivery process. He's also the owner/principal of Guidepost Systems which lets him engage directly with struggling organizations. He has been in various corners of the IT world since joining the US Air Force in 1982. He’s spent time in LAN/WAN and server management roles in addition to many years helping teams and customers deliver great systems. Jim has worked with organizations ranging from start ups to Fortune 10 companies to improve their delivery processes and ship better value to their customers. When not at work you might find Jim in the kitchen with a glass of wine, playing Xbox, hiking with his family, or banished to the garage while trying to practice his guitar.",
+    "Twitter": "aJimHolmes",
+    "Website": "GuidepostSystems.com",
+    "Sessions": [{ "Id": 419, "Title": "You Got This" }]
+  },
+  {
+    "Id": 74,
+    "DisplayName": "Josh",
+    "Bio": "My name is Josh Carroll and I am a Husband, Father, and Web Hacker.\n\nI am the CTO of ResultStack and count myself incredibly blessed to be able to help build an amazing consulting practice. I have a beautiful wife, and 4 amazing little kids. We make our home nestled away in Knoxville, Tennessee among the amazing Smoky Mountains.\n\nI've been hacking on computers since I was about 8 years old. It's no wonder I love the web so much since my first \"programming\" experience was teaching myself HTML and pushing a website out to some acedemic server. All I can remember is how fascinated I was with being able to access my own site... ON THE INTERNET!!!\n\nI went on to do some real programming in high school, and eventually got to compete in a robotics competition my senior year. Becoming a programmer was all I wanted to do, and I went after it full speed ahead. I graduated from ETSU in 2005 and have been doing what I love ever since.",
+    "Twitter": "@jwcarroll",
+    "Website": "http://www.technofattie.com/",
+    "Sessions": [
+      {
+        "Id": 412,
+        "Title": "Going Fast: The Art of Delivering Quality Software Quickly"
+      }
+    ]
+  },
+  {
+    "Id": 137,
+    "DisplayName": "Kevin P. Davis (kpd)",
+    "Bio": "Hi, y'all - \n\nI'm kpd. I was once a physicist. Got a doctorate and everything to show for it. But physics these days is often done in big experiments, and much of what scientists do day-to-day is data mining and coding. So around the turn of the millenium, I chose to pursue technology as my chosen field.\n\nI've been at companies from the Fortune 50 to companies with fewer than 50 employees. I usually code in .NET, but please don't hold that against me. I geek out about process improvements, software management, and productivity. \n\nI help organize a great polyglot conference up in Wisconsin called THAT Conference; yes, it's THAT Conference. I also edit and write for our Medium publication at https://medium.com/that-conference, so you can check out my thoughts there.\n\n",
+    "Twitter": "kevinpdavis",
+    "Website": "http://www.kevinpdavis.com",
+    "Sessions": [{ "Id": 322, "Title": "Be Your Best (Developer) Self" }]
+  },
+  {
+    "Id": 150,
+    "DisplayName": "Matthew Knowles",
+    "Bio": "Software craftsman and strong proponent of agile technical practices. Can usually be found at Greater Sum practicing TDD and worrying about the quality of his tests.",
+    "Twitter": null,
+    "Website": null,
+    "Sessions": [
+      {
+        "Id": 347,
+        "Title": "Who watches the watchmen?   Introducing a better metric of your tests' quality"
+      }
+    ]
+  },
+  {
+    "Id": 147,
+    "DisplayName": "Mike Clement",
+    "Bio": "Mike Clement is a husband, father of four, and currently the Founding Software Craftsman of Greater Sum. Mike believes we work best when we are working together and that there are no best practices—only better and worse ones depending on the context.  Passionate about agile technical excellence, Mike believes some leading practices are Test Driven Development, Pair and Mob Programming, User Story Mapping and other modern software product development practices.  Mike founded and organizes Software Craftsmanship Atlanta, founded Utah Software Craftsmanship and organized the Lean+Agile Atlanta Unconference and the Agile Roots conference.  In addition to organizing groups and conferences, Mike has presented at many conferences including Agile Alliance, DevNexus, Codestock, Music City Tech, Software Testing Atlanta Conference, Southern Fried Agile, Mile High Agile, Agile & Beyond, That Conference, Agile Dev East, Software Development and Evolution Conference, Spark Conference, and code camps throughout the United States including Atlanta, Raleigh, Utah, Boise, Seattle, Portland, SoCal San Diego, and Chicago. Previous employers include Pluralsight, Ancestry.com and Microsoft. Find out more about Mike on his blog (http://blog.softwareontheside.com/) and on Twitter at @mdclement.",
+    "Twitter": "mdclement",
+    "Website": "http://blog.softwareontheside.com/",
+    "Sessions": [
+      { "Id": 339, "Title": "Develop your Sense of Code Smell" },
+      { "Id": 343, "Title": "Software Craftsmanship and Agile Code Games" }
+    ]
+  },
+  {
+    "Id": 66,
+    "DisplayName": "Pat Viafore",
+    "Bio": "Pat is a Software Engineer at ADTRAN, working with embedded C++ and Python.  He is also a co-organizer of HSV.py.  Clean code, testing, and automation is near and dear to his heart, and will happily spend hours talking about it.  He keeps trying to automate his house, and can't wait until robots do all his chores.  ",
+    "Twitter": "@PatViaforever",
+    "Website": "http://patviafore.com",
+    "Sessions": [
+      {
+        "Id": 313,
+        "Title": "Practical Computer Science: What You Need To Know Without the Degree"
+      },
+      {
+        "Id": 328,
+        "Title": "Controlling Raspberry Pis with Your Phone using Python"
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "DisplayName": "Paul Gower",
+    "Bio": "Paul started his career as a software developer in 2001 developing client/server enterprise solutions.  An innovative problem solver, Paul uses in-depth analysis, deep consultation and the latest software development practices to serve his clients.  In 2014 Paul started his company Lunamark (http://lumamark.com), where he leverages his years of experience to help companies improve their software development team's efficiency using techniques such as clean coding practices, code reviews, pair programming, and kanban.  In 2016 Paul became a certified Kanban Management Professional and Certified ScrumMaster.  In 2017 Paul became a Kanban Trainer in Residence for HUGE IO and in early 2018 became an Accredited Kanban Trainer. He is constantly learning new ways to improve flow efficiency to make software development projects more successful.",
+    "Twitter": "paulmgower",
+    "Website": "https://www.lunamark.com",
+    "Sessions": [
+      { "Id": 326, "Title": "Bigger Profits with Kanban" },
+      { "Id": 327, "Title": "Rub Some DevOps on Your Node App in Azure" }
+    ]
+  },
+  {
+    "Id": 128,
+    "DisplayName": "Scott McAllister",
+    "Bio": "Scott McAllister has been building web applications in several industries for over a decade. He joined Smartsheet several years ago, building integrations with the Smartsheet API using languages like Java, Node.js, and Python. Now he's helping others learn about a wide range of web technologies. When he's not coding, writing or speaking he enjoys long walks with his wife, skipping rocks with his kids, and is happy whenever Real Salt Lake can manage a win.",
+    "Twitter": "stmcallister",
+    "Website": null,
+    "Sessions": [
+      {
+        "Id": 350,
+        "Title": "Why Loop in JavaScript When You Can Map, Reduce or Filter?"
+      },
+      {
+        "Id": 352,
+        "Title": "Connecting the Dots: How Angular Components Work Together"
+      }
+    ]
+  },
+  {
+    "Id": 130,
+    "DisplayName": "Taylor Desseyn",
+    "Bio": "Taylor graduated from the Darla Moore School of Business at the University of South Carolina in 2011 and immediately jumped into the world of recruiting. He started his career at Vaco in 2011 where he has recruited for clients such as Disney, Pacific Gas & Electric, Yahoo!, and Sony. After achieving top producer for 2013 out of a team of six, Taylor was recognized by Vaco and was brought to Raleigh to be instrumental in the building of the Technology division. During his time in Raleigh Taylor helped to scale the team from three to seven and focused on recruiting in all things technology, where he ultimately found his niche within development and TriNug (Raleigh .NET User Group). In June 2014 Taylor was asked to return to the Nashville office to help build out the technology team. Since his return, Taylor has been elected VP of the .NET User Group in Nashville for the last three years. He focuses 100% of his time within the development vertical in technology. As of 2017 Taylor is the Recruiting Manager of Vaco’s Nashville Technology division that is responsible for grossing $4.5 million a year in revenue and ranking in the top three of over 30+ Vaco Technology offices. From his time at Vaco he has seen the team double in size from seven to eighteen and has spoken at multiple conferences ranging from Nashville's very own Music City Code, Codestock in Knoxville, the Raleigh Code Conference, to Vaco’s National Engage the World Conference and continues to be heavily involved within both the local and national tech community.",
+    "Twitter": "tdesseyn",
+    "Website": "www.taylordesseyn.com",
+    "Sessions": [{ "Id": 282, "Title": "Recruiters Suck. Use them." }]
+  },
+  {
+    "Id": 154,
+    "DisplayName": "Taylor Krusen",
+    "Bio": "A tech-enthusiast and Japanophile, Taylor Krusen is an Associate Developer Advocate for Smartsheet. He typically spends his time coding, snowboarding, or teaching his little girl the art of mischief. Taylor's passion for travel, collaboration, and learning have instilled in him a significant appreciation for diversity of thought.",
+    "Twitter": "@TaylorKrusen",
+    "Website": null,
+    "Sessions": [
+      {
+        "Id": 360,
+        "Title": "Writing End-To-End Tests Using Headless Chrome and Puppeteer"
+      }
+    ]
+  },
+  {
+    "Id": 99,
+    "DisplayName": "Todd Merritt",
+    "Bio": "Todd is a software engineer based out of Nashville, TN that focuses primarily on .NET and other Microsoft technologies. Over the past 16 years Todd has worked with companies that range in size from small startups to large scale fortune 500 companies. Todd has worked across many industries including healthcare, business services, lead generation, and internet marketing. Areas of expertise include web based applications, database development, and the ability to translate business speak to geek. ",
+    "Twitter": "@GeekInterface",
+    "Website": "https://www.linkedin.com/in/tlmerritt/",
+    "Sessions": [{ "Id": 323, "Title": "The Art of Pair Programming" }]
+  },
+  {
+    "Id": 126,
+    "DisplayName": "Tyler Jennings",
+    "Bio": "Tyler is a consultant with ResultStack in the Knoxville, TN area.  He started in IT 10 years ago in Systems and Networking half way through his career made the switch to software with a passion for web development.  He currently spends most of his time in .NET, Angular, and Ionic, but is a FP enthusiast and loves to learn new languages and paradigms whenever possible.  ",
+    "Twitter": "@JenningsTCJ",
+    "Website": "http://tylerscode.com/",
+    "Sessions": [
+      { "Id": 269, "Title": "Write Cleaner JavaScript Today" },
+      { "Id": 270, "Title": "Command and Conquer the Front End with Elm" }
+    ]
+  }
+]

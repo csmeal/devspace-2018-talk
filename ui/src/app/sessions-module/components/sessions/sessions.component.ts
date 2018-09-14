@@ -9,18 +9,7 @@ import { SessionService } from '../../services/sessions.service';
 })
 export class SessionsComponent implements OnInit {
   private selectedItem: any;
-  private icons = [
-    'flask',
-    'wifi',
-    'beer',
-    'football',
-    'basketball',
-    'paper-plane',
-    'american-football',
-    'boat',
-    'bluetooth',
-    'build'
-  ];
+
   public sessions: Array<Session> = [];
 
   constructor(private sessionService: SessionService) {}
