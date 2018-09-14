@@ -12,9 +12,9 @@
       {{session.Abstract}}
     </ion-card-content>
     <ion-footer>
-      <button ion-button round color="dark" *ngFor="let tag of session.Tags">
-        {{ tag.Text }}
-      </button>
+      <ion-chip *ngFor="let tag of session.Tags">
+        <ion-label color="primary">{{tag.Text}}</ion-label>
+      </ion-chip>
     </ion-footer>
   </ion-card>
 </ion-content>
