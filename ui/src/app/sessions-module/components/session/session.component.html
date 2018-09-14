@@ -1,8 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Sessions
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 <ion-content *ngIf="session$ | async as session">
   <ion-card>
 
-    <ion-card-header>
-      <ion-card-title>
+    <ion-card-header color="primary">
+      <ion-card-title color="dark">
         {{ session.Title}}
       </ion-card-title>
 

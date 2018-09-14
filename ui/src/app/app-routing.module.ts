@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'sessions',
     loadChildren: './sessions-module/sessions.module#SessionsPageModule'
+  },
+  {
+    path: 'speakers',
+    loadChildren: './speakers-module/speakers.module#SpeakersPageModule'
   }
 ];
 

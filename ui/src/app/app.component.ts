@@ -19,6 +19,11 @@ export class AppComponent {
       title: 'Session List',
       url: '/sessions',
       icon: 'list'
+    },
+    {
+      title: 'Speaker List',
+      url: '/speakers',
+      icon: 'list'
     }
   ];
 
