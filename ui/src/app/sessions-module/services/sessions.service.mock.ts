@@ -21,4 +21,8 @@ export class MockSessionService {
   getSessions(): Observable<any> {
     return of(this.sessions);
   }
+
+  getSession(): Observable<any> {
+    return of(this.sessions[0]);
+  }
 }

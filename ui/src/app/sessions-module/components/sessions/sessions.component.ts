@@ -30,9 +30,4 @@ export class SessionsComponent implements OnInit {
       this.sessions = data;
     });
   }
-  // add back when alpha.4 is out
-  navigate(session) {
-    console.log('sdfdsf');
-    //this.router.navigate(['/list', JSON.stringify(item)]);
-  }
 }
