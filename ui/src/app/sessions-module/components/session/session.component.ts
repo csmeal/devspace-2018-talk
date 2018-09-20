@@ -4,6 +4,7 @@ import { switchMap } from 'rxjs/operators';
 import { Session } from '../../../../shared/models';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { SessionService } from '../../services';
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'session',
@@ -12,15 +13,22 @@ import { SessionService } from '../../services';
 })
 export class SessionComponent implements OnInit {
   session$: Observable<Session>;
-
+  rating: number;
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private sessionServices: SessionService
+    private sessionServices: SessionService,
+    private toastController: ToastController
   ) {}
 
-  onRatingClick(rating) {
-    alert('Thank you!');
+  async onRatingClick(rating) {
+    this.rating = rating;
+    const toast = await this.toastController.create({
+      duration: 3000,
+      message: 'Thank you for voting!',
+      position: 'bottom'
+    });
+    toast.present();
   }
 
   navigateToSpeaker(id) {

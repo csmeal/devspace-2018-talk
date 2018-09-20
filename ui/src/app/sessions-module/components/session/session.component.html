@@ -28,7 +28,8 @@
       <br>
       <ion-item>
         Rating:
-        <ion-icon *ngFor="let x of [1,2,3,4,5]" name="star" (click)="onRatingClick(x)"></ion-icon>
+        <ion-icon [ngStyle]="{'color': !!rating && x <= rating ? 'gold' : 'black' }" *ngFor="let x of [1,2,3,4,5]" name="star"
+          (click)="onRatingClick(x)"></ion-icon>
 
       </ion-item>
     </ion-footer>

@@ -6,6 +6,9 @@ import { RouterModule } from '@angular/router';
 
 import { SessionService } from './services/sessions.service';
 import { SessionsComponent, SessionComponent } from './components';
+import { ToastController } from '@ionic/angular';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from '../app.component';
 
 @NgModule({
   imports: [
@@ -24,6 +27,7 @@ import { SessionsComponent, SessionComponent } from './components';
     ])
   ],
   declarations: [SessionsComponent, SessionComponent],
-  providers: [SessionService]
+  providers: [SessionService, ToastController],
+  bootstrap: []
 })
 export class SessionsPageModule {}
