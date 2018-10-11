@@ -10,7 +10,7 @@
 </ion-header>
 
 <ion-content padding *ngIf="!user">
-  <button ion-button (click)="signInWithGoogle()">Login?<span class="fa fa-google"></span></button>
+  <button ion-button (click)="userPoolSignUp()">Login?<span class="fa fa-google"></span></button>
 </ion-content>
 <ion-content padding *ngIf="user">
   <ion-thumbnail> <img src={{user.photoUrl}}>
