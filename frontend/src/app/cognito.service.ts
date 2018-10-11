@@ -12,7 +12,7 @@ import * as AWS from 'aws-sdk/global';
 @Injectable()
 export class CognitoService {
   constructor() {}
-
+  jwt = '';
   getUserPool() {
     const poolData = {
       UserPoolId: environment.userPoolId,
@@ -21,6 +21,35 @@ export class CognitoService {
 
     return new CognitoUserPool(poolData);
   }
+
+  authenticate(username: string, password: string) {
+    console.log('UserLoginService: starting the authentication');
+
+    const authenticationData = {
+      Username: username,
+      Password: password
+    };
+    const authenticationDetails = new AuthenticationDetails(authenticationData);
+
+    const userData = {
+      Username: username,
+      Pool: this.getUserPool()
+    };
+
+    console.log('UserLoginService: Params set...Authenticating the user');
+    const cognitoUser = new CognitoUser(userData);
+    console.log('UserLoginService: config is ' + AWS.config);
+    cognitoUser.authenticateUser(authenticationDetails, {
+      newPasswordRequired: (userAttributes, requiredAttributes) =>
+        console.log('CHange your password'),
+      onSuccess: result => {
+        console.log('Success: ', result);
+        this.jwt = result.getIdToken().getJwtToken();
+      },
+      onFailure: err => console.log(err)
+    });
+  }
+
   register(user: any): void {
     console.log('UserRegistrationService: user is ' + user);
 

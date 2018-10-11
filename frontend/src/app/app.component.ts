@@ -11,6 +11,10 @@ export class AppComponent {
 
   constructor(private cognito: CognitoService) {}
 
+  login() {
+    this.cognito.authenticate('csmeal16@gmail.com', 'Password123!@#');
+  }
+
   register() {
     this.cognito.register({});
   }
