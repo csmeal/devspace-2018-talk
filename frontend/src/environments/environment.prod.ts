@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  cognito_idp_endpoint: 'cognito_idp_endpoint',
-  clientId: 'sdf'
+  clientId: '2nbg00o9qv2s8ohp8efet3homv',
+  userPoolId: 'us-east-1_omjLgRV3a'
 };

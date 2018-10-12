@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CognitoService } from './cognito.service';
 
 @Component({
@@ -6,16 +6,50 @@ import { CognitoService } from './cognito.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'app';
+  user = null;
+  bakers = [];
 
   constructor(private cognito: CognitoService) {}
-
-  login() {
-    this.cognito.authenticate('csmeal16@gmail.com', 'Password123!@#');
+  ngOnInit() {
+    this.bakers = [
+      {
+        name: 'Edd Kimber',
+        rating: '?'
+      },
+      {
+        name: 'Joanne Wheatley',
+        rating: '?'
+      },
+      {
+        name: 'John Whaite',
+        rating: '?'
+      },
+      {
+        name: 'Frances Quinn',
+        rating: '?'
+      }
+    ];
   }
 
-  register() {
-    this.cognito.register({});
+  login(user, pass) {
+    this.user = this.cognito.authenticate(user, pass);
+    console.log(this.user);
+    this.getAll();
+  }
+
+  register(email, pass) {
+    this.cognito.register(email, pass);
+  }
+
+  vote(bakerName, rating) {
+    console.log(this.cognito.user);
+    this.cognito.vote(bakerName, rating);
+  }
+
+  async getAll() {
+    const results = await this.cognito.getAll();
+    console.log('asll res', results);
   }
 }

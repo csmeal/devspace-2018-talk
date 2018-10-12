@@ -5,6 +5,7 @@
 
 export const environment = {
   production: false,
-  clientId: '98itpqglfe24n20j9a8lj6jea',
-  userPoolId: 'us-east-1_garXQu2T0'
+  clientId: '2nbg00o9qv2s8ohp8efet3homv',
+  userPoolId: 'us-east-1_omjLgRV3a',
+  endpoint: 'https://l2s82tdv4e.execute-api.us-east-1.amazonaws.com/dev/'
 };

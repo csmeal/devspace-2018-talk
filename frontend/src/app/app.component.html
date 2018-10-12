@@ -7,9 +7,21 @@
 </div>
 <h2>Here are some links to help you start: </h2>
 <ul>
-  <button (click)="register()"> Register</button>
+  <input type="string" #regEmail value=''>
+  <input type="password" #regPass value=''>
+  <button (click)="register(regEmail.value, regPass.value)"> Register</button>
 </ul>
 
 <ul>
-  <button (click)="login()"> Auth</button>
+  <input type="string" #logEmail value=''>
+  <input type="password" #logPass value=''>
+  <button (click)="login(logEmail.value, logPass.value)"> Login</button>
 </ul>
+
+<div *ngIf="cognito.user">
+  <li *ngFor="let baker of bakers">
+    {{baker.name}} has a rating of {{baker.rating}}
+    <input type="number" #rating value=0>
+    <button type="submit" (click)="vote(baker.name, rating.value)">Vote</button>
+  </li>
+</div>
