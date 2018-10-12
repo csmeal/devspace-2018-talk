@@ -27,25 +27,22 @@ export class CognitoService {
   }
 
   vote(bakerName, rating) {
-    const headers = new HttpHeaders();
-    headers.append('Authorization', this.jwt);
-    console.log(headers);
+    const body = {
+      userId: this.user.sub,
+      bakerName: bakerName,
+      rating: rating
+    };
+    console.log(body);
+    console.log(environment.endpoint + 'vote');
     this.http
-      .post(
-        environment.endpoint + '/vote',
-        {
-          userName: this.user,
-          bakerName: bakerName,
-          rating: rating
-        },
-        { headers: headers }
-      )
+      .post(environment.endpoint + 'vote', body)
       .toPromise()
       .then(s => console.log(s))
       .catch(e => console.log(e));
   }
 
   getAll() {
+    console.log(environment.endpoint + '/rating');
     return this.http.get(environment.endpoint + '/rating').toPromise();
   }
 
@@ -75,7 +72,7 @@ export class CognitoService {
         this.user = (result as any).idToken.payload;
         this.jwt = result.getIdToken().getJwtToken();
       },
-      onFailure: err => alert(err)
+      onFailure: err => alert(err.message)
     });
   }
 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CognitoService } from './cognito.service';
+import { Conditional } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,7 @@ export class AppComponent implements OnInit {
   user = null;
   bakers = [];
 
-  constructor(private cognito: CognitoService) {}
+  constructor(public cognito: CognitoService) {}
   ngOnInit() {
     this.bakers = [
       {
@@ -46,10 +47,24 @@ export class AppComponent implements OnInit {
   vote(bakerName, rating) {
     console.log(this.cognito.user);
     this.cognito.vote(bakerName, rating);
+    this.getAll();
   }
 
   async getAll() {
-    const results = await this.cognito.getAll();
-    console.log('asll res', results);
+    const results = (await this.cognito.getAll()) as any;
+    console.log('asll res', results.results);
+    results.results.forEach(element => {
+      console.log('el', element);
+      const baker = element.baker;
+      const average = element.average;
+      console.log(baker);
+      const found = this.bakers.find(dude => {
+        return dude.name === baker;
+      });
+      const index = this.bakers.indexOf(found);
+      if (index >= 0) {
+        this.bakers[index].rating = average;
+      }
+    });
   }
 }

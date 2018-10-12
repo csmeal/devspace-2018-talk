@@ -50,10 +50,7 @@ def response(message, status_code):
 
 
 def vote(event, context):
-    print('sssss')
-    return create_200_response('Succesffuly voted')
     print(event)
-    print(context)
     if 'bakerName' in event:
         req = event
     else:
@@ -63,9 +60,9 @@ def vote(event, context):
 
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
 
-    res = table.put_item(Item={
+    table.put_item(Item={
         'bakerName': req['bakerName'],
-        'rating': req['rating'],
+        'rating': int(req['rating']),
         'userId': req['userId']
     })
 
@@ -73,8 +70,6 @@ def vote(event, context):
 
 
 def get_rating(event, context):
-    print('mmmmm')
-    return create_200_response('Results:')
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
     res = table.scan()
     all_bake = {}
@@ -83,13 +78,12 @@ def get_rating(event, context):
         name = item['bakerName']
         print(name)
         if name in all_bake:
-            all_bake[name]['rating_total'] += item['rating']
+            all_bake[name]['rating_total'] += int(item['rating'])
             all_bake[name]['count'] += 1
         else:
             all_bake[name] = {}
             all_bake[name]['count'] = 1
-            all_bake[name]['rating_total'] = item['rating']
-
+            all_bake[name]['rating_total'] = int(item['rating'])
     print(all_bake)
     results = []
     for key, value in all_bake.items():
@@ -100,4 +94,4 @@ def get_rating(event, context):
         print(str(avg))
         results.append({'baker': key, 'average': avg})
 
-    return create_200_response('results')
+    return create_200_body({'results': results})

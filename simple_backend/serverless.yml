@@ -5,7 +5,8 @@ provider:
   runtime: python3.6
   stage: dev
   region: us-east-1
-
+  environment:
+    DYNAMODB_TABLE: { Ref: VoteTable }
 # you can add statements to the Lambda function's IAM Role here
   iamRoleStatements:
     - Effect: Allow
@@ -55,3 +56,5 @@ resources:
       Type: AWS::Cognito::UserPool
       Properties:
         UserPoolName: DevSpaceTest2
+    UiLocation:
+      Type: AWS::S3::Bucket
